@@ -1,5 +1,7 @@
 # ROBBY WAS HERE
 
+- `brew install postgresql`
+
 - `pip install -r requirements.in && pip install -r dev-requirements.in`
 
 - `python manage.py makemigrations`
