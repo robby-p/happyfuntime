@@ -1,6 +1,8 @@
-# ROBBY WAS HERE
+# Keri and Robby were here
 
 - `brew install postgresql`
+
+- `cp .env.example .env`
 
 - `pip install -r requirements.in && pip install -r dev-requirements.in`
 

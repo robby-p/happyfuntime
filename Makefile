@@ -29,7 +29,7 @@ upgrade: ## update the *requirements.txt files with the latest packages satisfyi
 
 clean_examples:
 	# Remove the tables specific for the example app
-	python manage.py migrate exampleapp zero
+	python ./backend/manage.py migrate exampleapp zero
 	# Removing backend example app files
 	rm -rf ./backend/exampleapp
 	# Removing frontend example app files
