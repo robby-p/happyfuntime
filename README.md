@@ -2,6 +2,8 @@
 
 - `brew install postgresql`
 
+- `cp .env.example .env`
+
 - `pip install -r requirements.in && pip install -r dev-requirements.in`
 
 - `python manage.py makemigrations`
